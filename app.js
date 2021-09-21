@@ -26,7 +26,7 @@ function calculateAmount(amount){
 function validateBillAndCashAmount(){
    if(billAmount.value>0){
         if(cashAmount.value >= billAmount.value){
-            var amountReturn=cashAmount.value-billAmount.value;
+            var amountReturn=cashAmount.value - billAmount.value;
             calculateAmount(amountReturn);
         }
         else{
